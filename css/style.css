@@ -1,10 +1,4 @@
 .form-field {
-  /* background-image: linear-gradient(
-      to right,
-      rgba(207, 207, 155, 0.234),
-      rgba(232, 232, 180, 0.227)
-    ),
-    url(../img/modal-bg.jpg); */
   background-color: pink;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +6,7 @@
   margin-right: auto;
   background-position: center;
   max-width: 1600px;
-  height: 400px;
+  height: 800px;
   padding: 30px;
 }
 
@@ -92,10 +86,10 @@
   }
 }
 
-.pay-card {
+/* .pay-card {
   display: block;
 }
-
+ */
 @media screen and (min-width: 768px) {
   .pay-card {
     display: flex;
@@ -132,4 +126,45 @@
   position: absolute;
   top: 7px;
   left: 0;
+}
+
+.form-btn {
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #d41443;
+  background-color: #fea5bb;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .form-btn {
+    font-size: 22px;
+    padding: 8px 30px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-btn {
+    font-size: 22px;
+    padding: 10px 40px;
+    margin-top: 40px;
+  }
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  color: #d41443;
+  background-color: #fff;
+}
+
+.form-btn:disabled {
+  color: grey;
+  background-color: #fff;
 }
