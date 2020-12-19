@@ -1,0 +1,135 @@
+.form-field {
+  /* background-image: linear-gradient(
+      to right,
+      rgba(207, 207, 155, 0.234),
+      rgba(232, 232, 180, 0.227)
+    ),
+    url(../img/modal-bg.jpg); */
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  max-width: 1600px;
+  height: 400px;
+  padding: 30px;
+}
+
+.select-form {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .select-form {
+    text-align: right;
+  }
+}
+
+.select-text {
+  display: block;
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .select-text {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select-text {
+    display: inline-block;
+    font-size: 34px;
+    margin-right: 10px;
+  }
+}
+
+.select-ice {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .select-ice {
+    width: 250px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .select-ice {
+    width: 350px;
+    height: 35px;
+  }
+}
+
+.pay-text {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .pay-text {
+    font-size: 18px;
+    margin-top: -67px;
+    margin-bottom: 10px;
+    margin-left: 124px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pay-text {
+    font-size: 34px;
+    margin-top: -47px;
+  }
+}
+
+.pay-card {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .pay-card {
+    display: flex;
+  }
+}
+
+.card-svg {
+  width: 70px;
+  height: 35px;
+}
+
+.cards {
+  display: block;
+}
+
+.cards {
+  padding-left: 30px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .cards:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cards:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.select-box {
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
